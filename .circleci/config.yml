@@ -24,5 +24,7 @@ workflows:
     jobs:
       - welcome/run
       
-
+ # Run the welcome/run job in its own container
+    jobs:
+      - welcome/run
       
